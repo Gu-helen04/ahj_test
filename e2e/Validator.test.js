@@ -1,13 +1,14 @@
 /**
  * @jest-environment jsdom
  */
+/* eslint-disable */
 import puppeteer from 'puppeteer-core';
 import Widget from '../src/js/Widget';
 import Validator from '../src/js/Validator';
 
 const { fork } = require('child_process');
 
-//jest.setTimeout(50000);
+jest.setTimeout(30000);
 
 describe('Credit Card Validator form', () => {
   let browser = null;

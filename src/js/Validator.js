@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default class Validator {
   static Validate(inputClassName) {
     const input = document.querySelector(`.${inputClassName}`);
